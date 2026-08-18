@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: lb-pod  
   labels: 
-      app: lb 
+    app: lb 
 spec:
   containers:
      - name: apache-container
