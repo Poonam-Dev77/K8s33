@@ -7,13 +7,13 @@ metadata:
 spec:
   replicas: 2
   selector:
-    matchLables:
+    matchLabels:
       app: deploy 
   strategy:
     type: RollingUpdate
     rollingUpdate:
       maxSurge: 1
-      maxUnavilable: 1
+      maxUnavailable: 1
   template:
     metadata:
     lables:
