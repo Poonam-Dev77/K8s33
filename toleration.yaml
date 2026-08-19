@@ -5,7 +5,7 @@ metadata:
   labels:
     app: myapp
 spec: 
-  toleration: 
+  tolerations: 
     - key: "prod"
       operator: "Equal"
       value: "true"
