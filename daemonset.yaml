@@ -1,4 +1,4 @@
-apiVerison: v1
+apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: my-daemon 
@@ -10,7 +10,7 @@ spec:
       app: daemon
   template:
     metadata:
-      lables:
+      labels:
         app: daemon
     spec:
       containers:
