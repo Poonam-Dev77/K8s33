@@ -13,7 +13,7 @@ spec:
           - key: type
             operator: In
             values: 
-            - frontend
+            - db
   containers:
     - name: nginx-cont
       image: nginx:latest
