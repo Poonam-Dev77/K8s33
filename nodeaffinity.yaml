@@ -14,7 +14,7 @@ spec:
             operator: In
             values: 
             - backend
-    containers:
+  containers:
     - name: nginx-cont
       image: nginx:latest
       ports:
